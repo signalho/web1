@@ -141,7 +141,8 @@ App.Main.prototype = {
 				
 				this.txtBestUnit.text = 
 					"The best unit was born in generation "+(this.GA.best_population)+":"+
-					"\nFitness = "+this.GA.best_fitness.toFixed(2)+" / Score = " + this.GA.best_score;
+					"\nFitness = "+this.GA.best_fitness.toFixed(2)+" / Score = " + this.GA.best_score+
+				        "\nYonsei Univ. ME";
 				
 				// reset score and distance
 				this.score = 0;
