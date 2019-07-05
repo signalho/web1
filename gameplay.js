@@ -111,9 +111,7 @@ App.Main.prototype = {
 		
 		// create buttons
 		this.btnRestart = this.game.add.button(920, 620, 'imgButtons', this.onRestartClick, this, 0, 0);
-		this.btnMore = this.game.add.button(1040, 620, 'imgButtons', this.onMoreGamesClick, this, 2, 2);
 		this.btnPause = this.game.add.button(1160, 620, 'imgButtons', this.onPauseClick, this, 1, 1);
-		this.btnLogo = this.game.add.button(910, 680, 'imgLogo', this.onMoreGamesClick, this);
 		
 		// create game paused info
 		this.sprPause = this.game.add.sprite(455, 360, 'imgPause');
@@ -276,10 +274,6 @@ App.Main.prototype = {
 	onRestartClick : function(){
 		this.state = this.STATE_INIT;
     },
-	
-	onMoreGamesClick : function(){
-		window.open(http://me.yonsei.ac.kr/kor/", "_blank");
-	},
 	
 	onPauseClick : function(){
 		this.game.paused = true;
