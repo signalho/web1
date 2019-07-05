@@ -278,7 +278,7 @@ App.Main.prototype = {
     },
 	
 	onMoreGamesClick : function(){
-		window.open("http://www.askforgametask.com", "_blank");
+		window.open(http://me.yonsei.ac.kr/kor/", "_blank");
 	},
 	
 	onPauseClick : function(){
